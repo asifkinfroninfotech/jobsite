@@ -1,0 +1,207 @@
+// Add variables here to override theme variables
+
+//
+// Color system
+//
+
+// stylelint-disable
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #636c72 !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #292b2c !default;
+$black:    #000 !default;
+
+$grays: () !default;
+$grays: map-merge((
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900
+), $grays);
+
+$arthablue: #3399ff !default;
+$arthared: #b11f37 !default;
+$arthayellow:#f7971e !default;
+$arthagrey: #f6f7f8 !default; 
+$blue:    #047bf8 !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #e65252 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #fbe4a0 !default;
+$green:   #5eb314 !default;
+$teal:    #20c997 !default;
+$cyan:    #5bc0de !default;
+
+$colors: () !default;
+$colors: map-merge((
+  "arthablue":  $arthablue,
+  "arthared":   $arthared,
+  "arthayellow":$arthayellow,
+  "arthagrey":  $arthagrey,
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "purple":     $purple,
+  "pink":       $pink,
+  "red":        $red,
+  "orange":     $orange,
+  "yellow":     $yellow,
+  "green":      $green,
+  "teal":       $teal,
+  "cyan":       $cyan,
+  "white":      $white,
+  "gray":       $gray-600,
+  "gray-dark":  $gray-800
+), $colors);
+
+$primary:       $arthared !default;
+$secondary:     $gray-900 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+$theme-colors: () !default;
+$theme-colors: map-merge((
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+), $theme-colors);
+// stylelint-enable
+
+// Set a specific jump point for requesting color jumps
+$theme-color-interval:      8% !default;
+
+// The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
+$yiq-contrasted-threshold: 150 !default;
+
+// Customize the light and dark text colors for use in our YIQ color contrast function.
+$yiq-text-dark: $gray-900 !default;
+$yiq-text-light: $white !default;
+
+
+//Theme Colours
+
+$content-bg: $arthagrey;
+$content-panel-bg: #eceff6;
+$color-text-faded: rgba(90,99,126,0.49);
+$global-border-radius: 6px;
+$border-color: rgba(0,0,0,0.1);
+$element-box-shadow: 0px 2px 4px rgba(126, 142, 177, 0.12);
+$element-box-shadow-hover: 0px 5px 12px rgba(126, 142, 177, 0.2);
+
+// DARK COLOR SCHEME
+$dark-element-bg: #323c58;
+$dark-element-bg-to: #303950;
+$dark-content-bg: #293145;
+$dark-content-panel-bg: #293145;
+$dark-color-text-faded: rgba(255,255,255,0.49);
+$dark-border-color: rgba(255,255,255,0.05);
+$dark-element-box-shadow: 0px 5px 15px rgba(22, 22, 35, 0.1);
+$dark-element-box-shadow-hover: 0px 15px 25px rgba(22, 22, 35, 0.25);
+
+$dark-body-bg:       #293145 !default;
+$dark-body-color:    #ccd9e8 !default;
+$dark-body-color-faded:    #8596ab !default;
+$dark-link-color:    #b3bcde !default;
+
+$dark-headings-color: #fff;
+
+// Fonts
+
+$os-font-family-main: "Avenir Next W01", "Proxima Nova W01", "Rubik", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$os-family-headings:  "Avenir Next W01", "Proxima Nova W01", "Rubik", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-alt:     "Avenir Next W01", "Proxima Nova W01", "Rubik", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+
+$os-font-weight-light: 300;
+$os-font-weight-normal: 400;
+$os-font-weight-bold: 500;
+$os-headings-font-weight: 500;
+
+$font-alt-weight-light: $os-font-weight-light;
+$font-alt-weight-normal: $os-font-weight-normal;
+$font-alt-weight-bold: $os-font-weight-bold;
+
+$global-letter-spacing: 1px;
+
+
+// Menu Colors
+
+$menu-top-light-bg: #fff;
+$menu-top-dark-bg: #242B3F;
+
+// $menu-side-dark-bg: #1c4cc3;
+$menu-side-dark-bg: #323c58;
+$menu-side-dark-bg-to: #293145;
+$menu-side-light-bg: #fff;
+
+$menu-side-compact-dark-bg: #fff;
+$menu-side-compact-light-bg: #fff;
+$menu-side-compact-icon-color: $arthared;
+
+$top-menu-secondary-light-bg: #fff;
+$top-menu-secondary-dark-bg: #fff;
+
+$menu-dark-icons-color: $arthared;
+$menu-light-icons-color: $arthared;
+$menu-light-icons-color: $arthared;
+$sub-menu-dark-bg-color: $arthared;
+
+$menu-side-width: 300px;
+$menu-side-compact-width: 90px;
+$mobile-menu-tablet-width: 70px;
+
+// Colors
+$dark-red: #9d1818;
+$highlight-accent: #FBB463;
+
+$body-color-light: #868686;
+
+// Extra custom Bootstrap Variables
+
+// Navs
+$nav-pills-link-padding-small: .2em 1.1em !default;
+$nav-tabs-link-padding-small: .7em 1.1em !default;
+
+
+// Tables
+$table-lg-cell-padding:         1.2rem 1.5rem !default;
+
+
+// Fancy Selector 
+$fancy-selector-bg-dark: $arthablue;
+
+
+// Properties App Variables
+$filter-panel-width: 400px;
+$property-side-width: 400px;
+
+
+/* common variables*/
+$font-weight:500;
+$text-center: center;
+$with-full:100%;
+$bg-blk:rgba(0, 0, 0, 0.6);
+$bg-white:#ffffff;
+$uppercase:uppercase;
+$artha-landing-clor:#e9e9e9;
+$fontfamil-artha: "Open Sans",sans-serif;

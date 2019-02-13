@@ -1,0 +1,1 @@
+{!!$html_mail_content!!}

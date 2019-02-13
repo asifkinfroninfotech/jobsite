@@ -1,0 +1,37 @@
+<?php
+
+return array (
+  'help_title' => 'View Deal Help',
+  'help_content' => 'You may view any deal on the %%PLATFORMNAME%% pipeline, and take steps to explore further into due diligence if you wish.',
+  'help_btn_hide_caption' => 'Hide Help',  
+    
+    
+  'deal_header' => 'Deal',
+  'country_label'=> 'Country(S)',
+  'deal_caption'=>'Deal Information', 
+  'project_name_label'=>'Project Name',
+  'currency_name_label'=>'Currency',
+  'fund_use_label'=>'Proposed Use of Funds (why are you seeking finance?)',
+  'investment_stage_label'=>'Investmant Stage',
+  'monthly_operating_costs_label'=>'Monthly Operating Costs', 
+  'tot_invest_reqd_label'=>'Total Investment Required', 
+  'pre_mon_valua_label'=>'Pre Money Valuation',  
+  'projected_irr_label'=>'Projected IRR(%)',  
+  'purp_req_invest_label'=>'Purpose Of The Requested Investment',
+  'invest_struct_label'=>'Investment Structure',
+  'sdg_label'=>'SDG',
+  'loan_terms_fits_best_label'=>'What Loan Terms Fits Best Your Current Needs',
+  'loan_terms_year'=>'In Years',
+  'loan_terms_month'=>'In Month',
+  'other_financial_caption'=>'Other Financial Information',
+  'exist_prev_label'=>'Existing/Previous Investors',
+  "additio_detail_label"=>"Additional Detail (Is there anything else you'd like to add?)",
+  'proj_finan_caption'=>'Projected Financials (Optional)',  
+  'year_label'=>'Year',
+  'tot_reven_label'=>'Total Revenues/Turnover',
+  'tot_operating_cost_label'=>'Total Annual Operating Costs',
+  'ebitda_label'=>'EBITDA',
+  'net_cash_label'=>'Net Cash',
+  'video_label'=>'Video',  
+  'help_request_access_text'=>'An investor has requested access to this virtual diligence deal-room.',  
+);

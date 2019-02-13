@@ -1,0 +1,33 @@
+<section>
+   <div class="about-page">
+      <div class="figure-Box">
+         <ul>
+            <li>
+               <div class="about-pick" style="text-align: left;"><img src="Content/images/banner-img1.jpg" alt="image" /></div>
+            </li>
+         </ul>
+         <div class="clear-fix"></div>
+      </div>
+      <div class="about-Box">
+         <div class="wrapper-fix">
+            <div class="about-title">
+               <h1 style="text-align: center;">Every idea starts with a problem</h1>
+            </div>
+            <div class="about-txt">
+            	<p>Looking on the internet for your business supplies is time consuming. Choosing the wrong suppliers can also wreck your chances of maintaining a successful business. We created Qumli to connect small food businesses with quality local suppliers and help them reduce time, cost, and risk.</p>
+            	<p>Our special algorithm will rank suppliers based on their quality  of service so you can make better decisions and buy with trust.</p>
+            	<p>We're dedicated to delivering the best experience to our community.</p>
+            	<p>Happy sourcing</p>
+            </div>
+         </div>
+      </div>
+      <div class="figure-Box">
+         <ul>
+            <li>
+               <div class="about-pick"><img src="Content/images/banner-img2.jpg" alt="image" /></div>
+            </li>
+         </ul>
+         <div class="clear-fix"></div>
+      </div>
+   </div>
+</section>

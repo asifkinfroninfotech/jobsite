@@ -1,0 +1,33 @@
+<?php
+
+return array (
+  'welcome_back'=>'Welcome Back',
+  'logo_image_label'=>'Logo Image',
+  'logo_image_description'=>'Lorem ipsum dolor sit amet, consectetur adipiscing',  
+  'cover_image_label'=>'Cover Image',
+  'cover_image_description'=>'Lorem ipsum dolor sit amet, consectetur adipiscing',
+  'logo_image_drop_content'=>'Drop files here or click to upload',
+  'cover_image_drop_content'=>'Drop files here or click to upload',
+  'primary_color_label'=>'Primary Colour',
+  'secondary_color_label'=>'Secondary Colour',
+  'primary_color_validation'=>'Primary color must not be empty.',
+  'secondary_color_validation'=>'Secondary color must not be empty.',
+  'about_label'=>'About',
+  'about_validation'=>'About must not be empty',
+  'terms_label'=>'Terms',
+  'terms_validation'=>'Terms must not be empty',
+  'email_settings_heading'=>'Email Settings',
+  'from_name_label'=>'From Name',
+  'from_name_validation'=>'From name must not be empty',
+  'from_email_label'=>'From Email',
+  'from_email_validation'=>'From email must not be empty',
+  'contact_us_link_label'=>'Contact Us Link',
+  'contact_us_validation'=>'Contact Us must not be empty',
+  'privacy_policy_link_label'=>'Privacy Policy Link',
+  'privacy_policy_validation'=>'Privacy Policy link must not be empty',
+  'set_languages_heading'=>'Set Languages',  
+  'primary_login_label'=>'Primary Language',
+  'secondary_login_label'=>'Secondary Language', 
+  'required_error'=>"Required fields can't be empty.",  
+    
+);
